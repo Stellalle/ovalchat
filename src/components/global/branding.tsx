@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 export function chatbotName() {
-    return "WikiChat"
+    return "Legal Bunny"
 }
 
 export function allAvailableSystems() {
@@ -47,23 +47,23 @@ export function userScores() {
 
 
 export function pageDescription() {
-    return "WikiChat is an experimental chatbot that improves the factuality of large language models by retrieving data from Wikipedia."
+    return "Legal Bunny is an experimental chatbot that improves the factuality of large language models by retrieving data from contract database."
 }
 
 export function chatbotTagLine() {
-    return "Wikipedia + LLM"
+    return "Legal Bunny"
 }
 
 export function chatbotDescription() {
-    return "WikiChat is an experimental chatbot that improves the factuality of large language models by retrieving data from Wikipedia."
+    return "Legal Bunny is an experimental chatbot that can answer all your questions about the contract database."
 }
 
 export function chatbotRepository() {
-    return <a href="https://github.com/stanford-oval/WikiChat" target="_blank">https://github.com/stanford-oval/WikiChat</a>
+    return <a href="https://docs.google.com/spreadsheets/d/1vJvix3GO_z0gAqvR7HSGeIBCfhwuS6K3mgvI3cMklDs/edit#gid=578502381" target="_blank">Dataset Link</a>
 }
 
 export function chatbotLogo() {
-    return "/img/logos/chatbot/wikipedia.png"
+    return "/img/logos/legal_bunny/bunny_logo.png"
 }
 
 export function websitePreviewImage() {
@@ -73,16 +73,6 @@ export function websitePreviewImage() {
 export function footerMessage() {
     return (
         <>
-            WikiChat is part of a research project at Stanford University&apos;s{" "}
-            <a
-                href="https://oval.cs.stanford.edu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-bold hover:text-gray-200 trans-150"
-            >
-                Open Virtual Assistant Lab
-            </a>
-            .
         </>
     )
 }
@@ -239,7 +229,7 @@ export function crowdsourcingMessages() {
 export function mainPageMessages() {
     return [
         "I'll keep our conversations for research purposes.",
-        "Ask me about anything on Wikipedia!"
+        "Ask me about anything on the contract database!"
     ]
 }
 
@@ -250,10 +240,10 @@ export const routes = [
         name: "Home",
         href: "/",
     },
-    {
-        name: "About",
-        href: "/about",
-    },
+    // {
+    //     name: "About",
+    //     href: "/about",
+    // },
     // {
     //     name: "Contribute",
     //     href: "/improve",

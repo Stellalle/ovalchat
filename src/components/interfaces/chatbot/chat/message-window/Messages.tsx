@@ -91,6 +91,11 @@ export default function Messages({ history, convoState, messagesBottom, showSpee
         {(!convoState.value.turn.startsWith("user") && !convoState.value.turn.includes("read")) && (
           // show loading animation
           <div className="rounded-3xl w-fit px-5 py-3 mx-2 mt-1.5 max-w-xs break-words bg-gray-200 mr-auto">
+            <img
+              src="/img/logos/legal_bunny/capybara.jpg"
+              className="h-20 lg:h-22 w-auto mx-auto"
+              alt="Capybara"
+            />
             <div className="px-3 py-1">
               <div className="snippet" data-title=".dot-flashing">
                 <div className="stage">

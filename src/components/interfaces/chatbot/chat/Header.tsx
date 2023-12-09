@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="w-full bg-white p-2 pt-3 border-2 border-b-0 border-gray-400 rounded-t-md">
       <Image
-        className="h-14 w-auto mx-auto rounded-full bg-gradient-to-br"
+        className="h-20 w-auto mx-auto rounded-full bg-gradient-to-br"
         width="50"
         height="50"
         src={chatbotLogo()}

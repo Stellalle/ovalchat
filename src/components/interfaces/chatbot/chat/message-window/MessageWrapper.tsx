@@ -15,9 +15,9 @@ export default function MessageWrapper({ message, audioRef, convoState, children
     >
         <div className="flex flex-row items-center gap-x-2">
             {children}
-            {message.fromChatbot && showSpeechButton &&
+            {/* {message.fromChatbot && showSpeechButton &&
                 <SpeechButton audioRef={audioRef} convoState={convoState} message={message} />
-            }
+            } */}
         </div>
     </div>
 }
