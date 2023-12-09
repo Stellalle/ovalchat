@@ -248,10 +248,6 @@ h6,
     backface-visibility: hidden;
 }
 
-*::selection {
-    background-color: #04785729;
-}
-
 button,
 img {
     user-select: none;
